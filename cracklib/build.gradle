@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.0'
+    implementation 'org.javassist:javassist:3.20.0-GA'
+}
+
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
